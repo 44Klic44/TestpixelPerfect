@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: rgb(217 217 217);
+  width: 400px;
+  height: 400px;
+}
+.card {
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+}
+.rect {
+  z-index: 3;
+  border-radius: 30px;
+  top: 268px;
+  left: 49px;
+  width: 300px;
+  height: 80px;
+  background-color: #910fc1;
+  position: absolute;
+}
+
+.rect__blu {
+  width: 316px;
+  height: 100px;
+  position: absolute;
+  transform: rotate(47deg);
+  background-color: #1c3f9b;
+  height: 45px;
+  top: 157px;
+  left: 42px;
+  z-index: 2;
+}
+
+.mincirc {
+  top: 136px;
+  left: 223px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: rgb(12 165 101);
+  z-index: 3;
+}
+
+.trian {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 108px solid #ce3605;
+  border-left: 100px solid transparent;
+}
+
+.bigcircle {
+  background-color: rgb(36 132 86);
+  width: 323px;
+  height: 318px;
+  border-radius: 50%;
+  position: absolute;
+  top: -105px;
+  left: -97px;
+}
